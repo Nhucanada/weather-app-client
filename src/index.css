@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+}
+
+code {
+  font-family: 'Times New Roman', Times, serif
+    monospace;
+}
+
+.item-list {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 300px));
+}
+
+.item {
+  background-color: yellow;
+  color:blue;
+  border-radius: 10px;
+  padding: 1rem;
+  min-height: 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.item-footer {
+  display: flex;
+  align-items: center;
+}
+
+.delete-icon {
+  cursor: hover;
+}
+
+.display-weather {
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table {
+  font-family: "Times New Roman", serif;
+  width: 190px;
+  border: 0;
+  Color: yellow;
+  text-align: center
+}
+
+table td {
+  border: 0;
+}
+
+table.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button.submit {
+  background-color: yellow;
+  color: blue;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+a.changeYellow {
+  color: yellow;
+}

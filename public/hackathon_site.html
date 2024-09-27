@@ -1,0 +1,73 @@
+import React, { useState, useEffect } from 'react'
+import { Button, Container, Form } from 'react-bootstrap';
+import ItemList from '../components/grid/ItemList';
+import { nanoid } from 'nanoid'
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Our Web Site</title>
+</head>
+<style>
+	body {
+		background-image: url('enhanced-buzz-30491-1540900508-9.jpg');
+		background-attachment: fixed;
+	}
+
+	table {
+		width: 200px;
+		border: 0;
+		Color: yellow;
+		text-align: center
+	}
+
+	table td {
+		border: 0;
+	}
+
+	table.center {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	form {
+		Color: yellow;
+	}
+
+	.container {
+		width: 100%;
+	}
+</style>
+
+<body>
+	<table class="center">
+		<tr>
+			<td>Weather</td>
+			<td>Home</td>
+			<td>About</td>
+			<td>404</td>
+		</tr>
+	</table>
+	<table class="center" , style='font-size:400%;width:100%'>
+		<tr>
+			<td>Weather Application</td>
+		</tr>
+	</table>
+	<table class="center" , style='font-size:190%;width:100%'>
+		<tr>
+			<td>Enter the name of a city to retrieve weather information below</td>
+		</tr>
+	</table>
+	<tr>
+		<td>
+			<div class="container" style='text-align:center;'>
+				<form>
+					<br><input type="text" id="fname" name="fname" value="Location" style='width:50%;'><br>
+				</form>
+			</div>
+	</tr>
+	</td>
+</body>
+
+</html>
